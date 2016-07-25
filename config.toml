@@ -1,0 +1,20 @@
+baseurl = "http://kgolding.com/"
+languageCode = "en-us"
+title = "Kevin Golding"
+theme = "hyde-x"
+
+[author]
+    name = "Kevin Golding"
+
+[permalinks]
+    post = "/blog/:year/:month/:day/:title/"
+
+[params]
+    photo = "/img/KevinCaricature2Oval150x180.png"
+    linkedin = "https://www.linkedin.com/in/kevingolding"
+    twitter = "https://twitter.com/kgoldinguk"
+    googleplus = "https://plus.google.com/+KevinGolding"
+
+    hideReadingTime = true
+    theme = "theme-base-0d"
+    customCSS = "/css/kgolding.css"

@@ -1,0 +1,25 @@
+.sidebar {
+    text-align: center;
+}
+.sidebar-about h1 {
+    font-size: 1.8em;
+}
+.sidebar-about img {
+    margin: 0 auto 0.5rem auto;
+    width: 108px;
+    height: 130px;
+}
+@media (min-width: 48em) {
+    .sidebar-about img {
+        margin: 0 auto 0.75rem auto;
+        width: 108px;
+        height: 130px;
+    }
+}
+@media (min-width: 58em) {
+    .sidebar-about img {
+        margin: 0 auto 1rem auto;
+        width: 150px;
+        height: 180px;
+    }
+}
