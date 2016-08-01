@@ -3,6 +3,11 @@ languageCode = "en-us"
 title = "Kevin Golding"
 theme = "hyde-x"
 
+[[menu.main]]
+    name = "Projects"
+    url = "/project/"
+
+
 [author]
     name = "Kevin Golding"
 
@@ -14,7 +19,12 @@ theme = "hyde-x"
     linkedin = "https://www.linkedin.com/in/kevingolding"
     twitter = "https://twitter.com/kgoldinguk"
     googleplus = "https://plus.google.com/+KevinGolding"
+    stackOverflow = "http://stackexchange.com/users/3388933/kgolding"
+    facebook = "https://www.facebook.com/kevin.golding.uk"
 
     hideReadingTime = true
     theme = "theme-base-0d"
     customCSS = "/css/kgolding.css"
+    home = "Home"
+
+

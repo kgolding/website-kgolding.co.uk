@@ -6,15 +6,64 @@
     <description>Recent content on Kevin Golding</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 25 Jul 2016 10:54:15 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 25 Jul 2016 12:09:58 +0100</lastBuildDate>
     <atom:link href="http://kgolding.com/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Solutionbase Ltd</title>
+      <link>http://kgolding.com/solutionbaseltd/</link>
+      <pubDate>Mon, 25 Jul 2016 12:09:58 +0100</pubDate>
+      
+      <guid>http://kgolding.com/solutionbaseltd/</guid>
+      <description>&lt;p&gt;Solutionbase Ltd is my company that provides:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Software and hardware design&lt;/li&gt;
+&lt;li&gt;Two-radio integration&lt;/li&gt;
+&lt;li&gt;Web hosting&lt;/li&gt;
+&lt;li&gt;Email services&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We are recognised as an application partner with Motorola (MOTOTRBO), Hytera (DMR Tier II &amp;amp; Tier II), Kenwood, Tait,
+&amp;amp; Simoco. We can design custom solutions as projects, or provide solutions under license.&lt;/p&gt;
+
+&lt;p&gt;For Solutionbase Ltd support please email &lt;a href=&#34;mailto:support@solutionbase.co.uk&#34;&gt;support@solutionbase.co.uk&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>http://kgolding.com/about/</link>
+      <pubDate>Mon, 25 Jul 2016 11:39:23 +0100</pubDate>
+      
+      <guid>http://kgolding.com/about/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m a programmer and hardware designer!&lt;/p&gt;
+
+&lt;p&gt;Since way back in 1982 when I first wrote a port of space invaders for the ORIC-1 in BASIC with embedded 6502 machine
+code for the graphics scrolling I&amp;rsquo;ve been interested and active in software and hardware.&lt;/p&gt;
+
+&lt;p&gt;Much of my early working career was in the electronic security and fire detection industry, having
+worked for the likes of Honeywell, Tyco &amp;amp; ADT. I have had plenty of experience across the board including IP CCTV.&lt;/p&gt;
+
+&lt;p&gt;Whilst my career choices were always in technology, I only started professionally programming in 1998 mainly putting
+together websites and working with design companies as part of the .com boom.&lt;/p&gt;
+
+&lt;p&gt;I progressed onto creating web delivered applications starting with a service management system in 1998 for a
+South London company who repaired personal organisers. This lead on to a decade of writing various solutions mainly
+for small local businesses. The principle of delivering application via a web browser has held me in good stead and
+continues to do so.&lt;/p&gt;
+
+&lt;p&gt;These days, much of my time is spent on the continued development of the &lt;a href=&#34;http://smc-gateway.com&#34;&gt;SMC Gateway&lt;/a&gt; which
+is sold under license by &lt;a href=&#34;http://smc-comms.com&#34;&gt;SMC Ltd&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Test page</title>
-      <link>http://kgolding.com/post/test/</link>
+      <link>http://kgolding.com/blog/2016/07/25/test-page/</link>
       <pubDate>Mon, 25 Jul 2016 10:54:15 +0100</pubDate>
       
-      <guid>http://kgolding.com/post/test/</guid>
+      <guid>http://kgolding.com/blog/2016/07/25/test-page/</guid>
       <description>&lt;p&gt;This is a test page.&lt;/p&gt;
 </description>
     </item>
