@@ -34,3 +34,7 @@
     display: inline-block;
     width: 6em;
 }
+
+div.post > h1 {
+    font-size: 1.7em;
+}
