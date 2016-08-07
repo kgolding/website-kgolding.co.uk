@@ -23,3 +23,14 @@
         height: 180px;
     }
 }
+
+.page, .post {
+    margin-bottom: 2em;
+}
+
+.posts > li > time {
+    font-weight: normal;
+    color: #9a9a9a;
+    display: inline-block;
+    width: 6em;
+}

@@ -2,11 +2,17 @@ baseurl = "http://kgolding.com/"
 languageCode = "en-us"
 title = "Kevin Golding"
 theme = "hyde-x"
+preserveTaxonomyNames = true
 
 [[menu.main]]
     name = "Projects"
     url = "/project/"
 
+[taxonomies]
+    category = "categories"
+
+[blackfriday]
+    hrefTargetBlank = true
 
 [author]
     name = "Kevin Golding"

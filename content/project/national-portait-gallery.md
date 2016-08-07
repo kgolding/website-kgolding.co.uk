@@ -1,5 +1,5 @@
 +++
-categories = ["Projects", "SMC Gateway", "Hytera", "Integration"]
+categories = ["SMC Gateway", "Hytera", "Integration"]
 date = "2015-10-01T09:00:00+01:00"
 description = "National Portrait Gallery uses SMC Gateway for two-way radio integration"
 keywords = ["SMC Gateway", "Hytera", "Mitel"]
