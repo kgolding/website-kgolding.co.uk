@@ -18,7 +18,7 @@ and this got me thinking rather than using synthesised audio why not use real au
 
 I researched how many words I might need and this came out to around 300 for the given clients needs, including the
 common words such as 'the', 'is', 'of' etc. I also added numbers, including an algorithm to read numbers like a human
-does, eg 126 is spoken as "one", "hundred", "twenty", "six".
+would, eg 126 is spoken as "one", "hundred", "twenty", "six".
 
 This project was written in golang to run on a low-powered ARM CPU. The total size of the application and all the 300+
 sound files came in at just 20Mb which was very acceptable, and the generated audio is very clear.
