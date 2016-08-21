@@ -3,7 +3,7 @@ categories = ["SMC Gateway", "Motorola", "golang"]
 date = "2016-08-07T18:06:49+01:00"
 description = "Speaking text message for retail two-way radios"
 keywords = ["text-to-speech", "Motorola", "two-way radio"]
-title = "Text to speech for two-way radio"
+title = "Text to speech for two-way radios"
 +++
 
 Whilst two-way radios are used in retail environments, many of the radios are entry level and rarely feature text

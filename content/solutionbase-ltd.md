@@ -14,7 +14,7 @@ Solutionbase Ltd is my company that provides:
 * Web hosting
 * Email services
 
-Recognised as an application partner with Motorola (MOTOTRBO), Hytera (DMR Tier II & Tier II), Kenwood, Tait,
+Recognised as an application partner with Motorola (MOTOTRBO), Hytera (DMR Tier II & Tier II), Kenwood, Tait
 & Simoco, we can design custom solutions as projects, or provide solutions under license.
 
 For Solutionbase Ltd support please email <support@solutionbase.co.uk>
