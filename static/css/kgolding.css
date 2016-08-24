@@ -38,3 +38,12 @@
 div.post > h1 {
     font-size: 1.7em;
 }
+
+a.readmore {
+    font-style: italic;
+    white-space: nowrap;
+}
+
+a {
+    white-space: nowrap;
+}

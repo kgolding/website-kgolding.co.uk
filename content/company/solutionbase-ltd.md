@@ -4,10 +4,9 @@ date = "2014-01-22T12:09:00+01:00"
 description = "Solutionbase Ltd provides software and hardware development services"
 keywords = ["Solutionbase Ltd", "Motorola", "Hytera", "MOTOTRBO", "Kenwood", "Tait", "Icom", "Simoco", "Software development"]
 title = "Solutionbase Ltd"
-menu = "main"
 +++
 
-Solutionbase Ltd is my company that provides:
+[<img src="/img/Solutionbase_logo_250x79.png" align="right" class="img-responsive">](http://solutionbase.co.uk)Solutionbase Ltd is my company that provides:
 
 * Software and hardware design
 * Two-radio integration

@@ -1,6 +1,6 @@
 {{ partial "head.html" . }}
 <div class="content container">
-    <h1 class="post-title">Kevin Golding - An introduction</h1>
+    <h1 class="post-title">Kevin Golding</h1>
     <p>Hello! I'm a software and hardware developer/designer. I thought the best way to explain what I do is to talk
         a little about the projects I've worked on and the companies I'm involved with.</p>
     <p>I'm always in the market for new projects, especially joint ventures with long term revenue. Please contact me via
@@ -24,7 +24,7 @@
             {{ if eq .Site.Params.truncate false }}
             {{ .Content }}
             {{ else if .Description }}
-            <p>{{ .Description }}</p>
+            <p>{{ .Description }} <a href="{{ .Permalink }}" class="readmore">Read more...</a></p>
             <!--<a href="{{ .Permalink }}">Read On &rarr;</a>-->
             {{ else }}
             {{ .Summary }}

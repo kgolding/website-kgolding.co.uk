@@ -7,6 +7,12 @@ preserveTaxonomyNames = true
 [[menu.main]]
     name = "Projects"
     url = "/project/"
+    weight = 800
+
+[[menu.main]]
+    name = "Companies"
+    url = "/company/"
+    weight = 900
 
 [taxonomies]
     category = "categories"

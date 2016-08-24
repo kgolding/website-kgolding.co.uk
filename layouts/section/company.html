@@ -1,0 +1,24 @@
+{{ partial "head.html" . }}
+<div class="content container">
+  <h1 class="post-title">Companies</h1>
+  <p>I'm involved with a number of particular companies where I have long standing contract or an significant
+    investment in the company.</p>
+
+  <ul class="posts">
+    {{ range .Data.Pages }}
+    <li>
+      <h3>
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </h3>
+      {{ if isset .Params "categories" }}
+      {{ range .Params.categories }}
+      <a class="label" href="{{ "/categories/" | absURL }}{{ . | urlize }}">{{ . }}</a>
+      {{ end }}
+      {{ end }}
+    </li>
+    {{ end }}
+  </ul>
+
+
+</div>
+{{ partial "foot.html" . }}
