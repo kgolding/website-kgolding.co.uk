@@ -3,12 +3,11 @@
     {{ $paginator := .Paginate .Data.Pages }}
     {{ if lt $paginator.PageNumber 2 }}
         <h1 class="post-title">Kevin Golding</h1>
-        <p>Hello! I'm a software and hardware developer/designer. I thought the best way to explain what I do is to talk
+        <p>Hello! I'm a software and hardware developer/designer based in Surrey, United Kingdom. I thought the best way to explain what I do is to talk
             a little about the projects I've worked on and the companies I'm involved with.</p>
-        <p>I'm always in the market for new projects, especially joint ventures with long term revenue. Please contact me via
-            <a href="https://www.linkedin.com/in/kevingolding" target="_blank">Linkedin</a> where possible, otherwise send
-            an
-            email to kevin@kgolding.co.uk</p>
+        <p>I'm always in the market for new projects, especially joint ventures with long term revenue. Please contact
+            me via <a href="https://www.linkedin.com/in/kevingolding" target="_blank">Linkedin</a> where possible,
+            otherwise drop an email to <a href="email://kevin@kgolding.co.uk">kevin@kgolding.co.uk</a></p>
     {{ end }}
     <div class="posts">
         {{ range $paginator.Pages }}
@@ -40,11 +39,7 @@
 
 {{ with .Site.DisqusShortname }}
 <script type="text/javascript">
-    var disqus_shortname = {
-    { .
-    }
-    }
-    ;
+    var disqus_shortname = {{ . }};
     (function () {
         var s = document.createElement('script');
         s.async = true;
