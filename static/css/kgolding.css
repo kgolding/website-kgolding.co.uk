@@ -47,3 +47,37 @@ a.readmore {
 a {
     white-space: nowrap;
 }
+
+.section-post:before {
+    content: "\f133";
+    font-family: FontAwesome;
+    padding-right: 0.3em;
+}
+
+.section-project:before {
+    content: "\f19c";
+    font-family: FontAwesome;
+    padding-right: 0.3em;
+}
+
+.section-company:before {
+    content: "\f1ad";
+    font-family: FontAwesome;
+    padding-right: 0.3em;
+}
+
+.section-application:before {
+    content: "\f144";
+    font-family: FontAwesome;
+    padding-right: 0.3em;
+}
+
+.section-:before {
+    content: "\f05a";
+    font-family: FontAwesome;
+    padding-right: 0.3em;
+}
+
+.theme-base-0d .pagination > li.active > a, .theme-base-0d .pagination > li > span {
+    color: inherit;
+}

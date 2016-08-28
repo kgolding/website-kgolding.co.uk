@@ -3,7 +3,7 @@ categories = ["Intranet", "Database", "PHP"]
 date = "1998-06-01"
 description = "POS Ltd was the only third party service provider for the PSION range of PDA's."
 keywords = ["PSION", "PDA", "POS Ltd"]
-title = "POS Ltd"
+title = "Repair/service management system"
 
 +++
 

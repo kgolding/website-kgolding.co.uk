@@ -1,18 +1,20 @@
 {{ partial "head.html" . }}
 <div class="content container">
-    <h1 class="post-title">Kevin Golding</h1>
-    <p>Hello! I'm a software and hardware developer/designer. I thought the best way to explain what I do is to talk
-        a little about the projects I've worked on and the companies I'm involved with.</p>
-    <p>I'm always in the market for new projects, especially joint ventures with long term revenue. Please contact me via
-        <a href="https://www.linkedin.com/in/kevingolding" target="_blank">Linkedin</a> where possible, otherwise send
-        an
-        email to kevin@&lt;this domain name&gt;.</p>
+    {{ $paginator := .Paginate .Data.Pages }}
+    {{ if lt $paginator.PageNumber 2 }}
+        <h1 class="post-title">Kevin Golding</h1>
+        <p>Hello! I'm a software and hardware developer/designer. I thought the best way to explain what I do is to talk
+            a little about the projects I've worked on and the companies I'm involved with.</p>
+        <p>I'm always in the market for new projects, especially joint ventures with long term revenue. Please contact me via
+            <a href="https://www.linkedin.com/in/kevingolding" target="_blank">Linkedin</a> where possible, otherwise send
+            an
+            email to kevin@&lt;this domain name&gt;.</p>
+    {{ end }}
     <div class="posts">
-        {{ $paginator := .Paginate .Data.Pages }}
         {{ range $paginator.Pages }}
         <div class="post">
             <h1 class="post-title">
-                <a href="{{ .Permalink }}">{{ .Title }}</a>
+                <a href="{{ .Permalink }}" class="section-{{ .Section }}">{{ .Title }}</a>
             </h1>
             {{ if gt .Date 0}}<span class="post-date">{{ .Date.Format "Jan 2, 2006" }}{{ if not .Site.Params.hideReadingTime }} &middot;
             {{ .ReadingTime }} minute read{{ end }}{{ if .Site.DisqusShortname }} &middot; <a
