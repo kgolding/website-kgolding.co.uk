@@ -34,6 +34,8 @@ preserveTaxonomyNames = true
     stackOverflow = "http://stackexchange.com/users/3388933/kgolding"
     facebook = "https://www.facebook.com/kevin.golding.uk"
 
+    googleAnalytics = "UA-83317619-1"
+
     hideReadingTime = true
     theme = "theme-base-0d"
     customCSS = "/css/kgolding.css"
