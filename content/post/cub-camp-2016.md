@@ -1,10 +1,10 @@
 +++
-categories = []
+categories = ["Scouting"]
 date = "2016-07-31T19:11:40+01:00"
-description = ""
+description = "Just back from a great week camping at [Butchers Coppice](http://butcherscoppice.org.uk/) with the [1st Nork Cubs](http://www.1stnorkscoutgroup.org/cubs.htm)! We had 28 Cubs and 7 Scouts/young leaders."
 keywords = ["Scouting", "Camping", "Kids"]
 title = "Cub Camp 2016"
-draft = true
+draft = false
 +++
 
 Just back from a great week camping at [Butchers Coppice](http://butcherscoppice.org.uk/) with the

@@ -1,7 +1,7 @@
 +++
 description = "Freeware Mind mapping on the Psion PDA"
 keywords = []
-categories = ["Psion"]
+categories = ["Psion", "Mind mapping"]
 date = "2002-12-02"
 title = "psiMind - Mind Mapping for the Psion range of organisers"
 +++
