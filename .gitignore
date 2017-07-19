@@ -1,3 +1,4 @@
-/.idea
+.idea
 hugo.exe
-/public
+public/**
+*.iml
