@@ -4,7 +4,6 @@ description = "I use TeamViewer to provide remote support."
 keywords = []
 title = "TeamViewer"
 menu = "main"
-weight = 9999
 +++
 
 I use TeamViewer to provide remote support. Here are the links to download the version 10 quick support
