@@ -45,5 +45,3 @@ preserveTaxonomyNames = true
     theme = "theme-base-0d"
     customCSS = "/css/kgolding.css"
     home = "Home"
-
-

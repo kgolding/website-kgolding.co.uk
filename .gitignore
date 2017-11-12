@@ -2,3 +2,4 @@
 hugo.exe
 public/**
 *.iml
+public/sitemap.xml
