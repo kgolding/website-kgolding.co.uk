@@ -1,5 +1,5 @@
 .idea
 hugo.exe
-public/**
+public
 *.iml
-public/sitemap.xml
+.vscode/**
