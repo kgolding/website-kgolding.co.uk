@@ -12,7 +12,7 @@ Now at version 1.12gpl (05/12/02) - a Semi-Graphical Mind Mapping program for th
 
 Revo (no spell checker) | Series 5/5mx/7/netBook | OPL Source Code (use nOPLPlus)
 ---|---|---
-[Zipped](/download/psiMind/psiMindRevo112.zip) | [Zipped](/download/psiMind/psiMind112.zip) | [Zipped](psiMind112gplsource.zip) 
+[Zipped](/download/psiMind/psiMindRevo112.zip) | [Zipped](/download/psiMind/psiMind112.zip) | [Zipped](/download/psiMind/psiMind112gplsource.zip) 
 [SIS](/download/psiMind/psiMindRevo112.SIS) | [SIS](/download/psiMind/psiMind112.SIS)
 
 psiMind is licenced under the GPL and therefore costs nothing to register/use. All I ask is that you drop me a line to let me know what you think - good or bad!
