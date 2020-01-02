@@ -20,24 +20,21 @@ This code will safely decode the following packet which contains a Uint16 value 
 `02 01 ff 65 66 67 00 03` = `<STX> 01ff ABC <NULL> <ETX>`
 
 
-````
-	// Create a Data instance to put the packet into
-	mydata := Data{}
+``` go
+// Decode the packet, accessing the elements in the order they appear
+if packet.Byte() != decoder.STX {
+	log.Fatalln("Missing STX")
+}
 
-	// Decode the packet, accessing the elements in the order they appear
-	if packet.Byte() != decoder.STX {
-		log.Fatalln("Missing STX")
-	}
+myUint16 := packet.Uint16()
+myString := packet.CString()
 
-	mydata.Uint16 = packet.Uint16()
-	mydata.String = packet.CString()
+if packet.Byte() != decoder.ETX {
+	log.Fatalln("Missing ETX")
+}
 
-	if packet.Byte() != decoder.ETX {
-		log.Fatalln("Missing ETX")
-	}
-
-	// Check if there were any errors along the way
-	if err := packet.Err(); err != nil {
-		log.Fatalln(err)
-	}
-````
+// Check if there were any errors along the way
+if err := packet.Err(); err != nil {
+	log.Fatalln(err)
+}
+```
