@@ -17,7 +17,8 @@ Decoder takes a byte array and provides safe & simple functions to read differen
 
 This code will safely decode the following packet which contains a Uint16 value and a C style null terminated string:
 
-`02 01 ff 65 66 67 00 03` = `<STX> 01ff ABC <NULL> <ETX>`
+> `02 01 ff 65 66 67 00 03` = `<STX> 01ff ABC <NULL> <ETX>`
+
 
 
 ``` go
