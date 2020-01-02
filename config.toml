@@ -15,6 +15,7 @@ metaDataFormat = "yaml"
 googleAnalytics = "UA-83317619-1"
 
 enableGitInfo = true
+
 [[menu.main]]
     name = "Home"
     url = "/"
@@ -48,8 +49,9 @@ enableGitInfo = true
 [permalinks]
     post = "/blog/:year/:month/:day/:title/"
 
+
 [Params]
-#  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
+  homeTitle = "Kevin Golding"
   subtitle = "Software/hardware engineer aka technologist"
   mainSections = ["post","posts","application", "company", "project"]
   logo = "img/KevinCaricature2Oval150x180.png" # Expecting square dimensions
@@ -65,6 +67,7 @@ enableGitInfo = true
   delayDisqus = true
   showRelatedPosts = true
   hideAuthor = true
+
 #  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
 
 #[[Params.bigimg]]
@@ -109,16 +112,14 @@ enableGitInfo = true
 #   weibo = "username"
 #   slack = "kgolding"
 
-# [params]
-#     photo = "/img/KevinCaricature2Oval150x180.png"
-#     linkedin = "https://www.linkedin.com/in/kevingolding"
-#     twitter = "https://twitter.com/kgoldinguk"
-#     stackOverflow = "http://stackexchange.com/users/3388933/kgolding"
-#     facebook = "https://www.facebook.com/kevin.golding.uk"
-
-#     googleAnalytics = "UA-83317619-1"
-
-#     hideReadingTime = true
-#     theme = "theme-base-0d"
-#     customCSS = "/css/kgolding.css"
-#     home = "Home"
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "vs"
+    tabWidth = 4
