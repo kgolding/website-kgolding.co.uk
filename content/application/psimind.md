@@ -51,14 +51,18 @@ _Legal Notice: "Mind Mapping® is the registered trademark of the Buzan Organisa
 
 ### Screen Shots
 Here's a sample mind map...
-<img src="/img/psiMind/psimind1.GIF" class="img-responsive">
+
+![](/img/psiMind/psimind1.GIF)
 
 There's built-in printer support (text only at the moment)...
-<img src="/img/psiMind/psimind2.GIF" class="img-responsive">
+
+![](/img/psiMind/psimind2.GIF)
 
 Each item can be linked to one other file on your psion...
-<img src="/img/psiMind/psimind3.GIF" class="img-responsive">
+
+![](/img/psiMind/psimind3.GIF)
 
 There's an export to text feature with various styles to choose from...
-<img src="/img/psiMind/psimind4.GIF" class="img-responsive">
+
+![](/img/psiMind/psimind4.GIF)
 

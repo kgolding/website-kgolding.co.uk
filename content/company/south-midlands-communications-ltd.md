@@ -6,7 +6,9 @@ keywords = []
 title = "South Midlands Comms. Ltd"
 +++
 
-<img src="/img/smc-comms-logo.png" align="right" class="img-responsive">South Midlands Communications Ltd
+![](/img/smc-comms-logo.png)
+
+South Midlands Communications Ltd
 are the exclusive manufacturer of the SMC Gateway which I designed in 2014.
 
 The company has been working in the communications industry since it's formation in 1958. With offices in the UK, USA

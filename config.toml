@@ -1,8 +1,23 @@
-baseurl = "https://kgolding.co.uk/"
-languageCode = "en-us"
+baseURL = "https://kgolding.co.uk/"
+languageCode = "en-gb"
 title = "Kevin Golding"
-theme = "hyde-x"
-preserveTaxonomyNames = true
+theme = "beautifulhugo"
+
+DefaultContentLanguage = "en"
+metaDataFormat = "yaml"
+# pygmentsStyle = "trac"
+# pygmentsUseClasses = true
+# pygmentsCodeFences = true
+# pygmentsCodefencesGuessSyntax = true
+#pygmentsUseClassic = true
+#pygmentOptions = "linenos=inline"
+#disqusShortname = "XXX"
+googleAnalytics = "UA-83317619-1"
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 500
 
 [[menu.main]]
     name = "Projects"
@@ -27,21 +42,82 @@ preserveTaxonomyNames = true
 
 [author]
     name = "Kevin Golding"
+    email = "kevin@kgolding.co.uk"
 
 [permalinks]
     post = "/blog/:year/:month/:day/:title/"
 
-[params]
-    photo = "/img/KevinCaricature2Oval150x180.png"
-    linkedin = "https://www.linkedin.com/in/kevingolding"
-    twitter = "https://twitter.com/kgoldinguk"
-    googleplus = "https://plus.google.com/+KevinGolding"
-    stackOverflow = "http://stackexchange.com/users/3388933/kgolding"
-    facebook = "https://www.facebook.com/kevin.golding.uk"
+[Params]
+#  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
+  subtitle = "Software/hardware engineer aka technologist"
+  mainSections = ["post","posts","application", "company", "project"]
+  logo = "img/KevinCaricature2Oval150x180.png" # Expecting square dimensions
+  favicon = "favicon.png"
+  dateFormat = "January 2, 2006"
+  commit = false
+  rss = true
+  comments = true
+  readingTime = false
+  wordCount = true
+  useHLJS = true
+  socialShare = true
+  delayDisqus = true
+  showRelatedPosts = true
+  hideAuthor = true
+#  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
 
-    googleAnalytics = "UA-83317619-1"
+#[[Params.bigimg]]
+#  src = "img/triangle.jpg"
+#  desc = "Triangle"
+#[[Params.bigimg]]
+#  src = "img/sphere.jpg"
+#  desc = "Sphere"
+#  # position: see values of CSS background-position.
+#  position = "center top"
+#[[Params.bigimg]]
+#  src = "img/hexagon.jpg"
+#  desc = "Hexagon"
 
-    hideReadingTime = true
-    theme = "theme-base-0d"
-    customCSS = "/css/kgolding.css"
-    home = "Home"
+[Author]
+  name = "Kevin Golding"
+  website = "kgolding.co.uk"
+  email = "kevin@kgolding.co.uk"
+  facebook = "kevin.golding.uk"
+  github = "kgolding"
+  gitlab = "kevin"
+#  bitbucket = "username"
+  twitter = "kgoldinguk"
+#  reddit = "username"
+  linkedin = "kevingolding"
+#  xing = "username"
+  stackoverflow = "users/2844276/kgolding"
+#   snapchat = "username"
+#   instagram = "username"
+  youtube = "user/kgolding" # or channel/channelname
+#   soundcloud = "username"
+#   spotify = "username"
+#   bandcamp = "username"
+#   itchio = "username"
+#   vk = "username"
+#   paypal = "username"
+#   telegram = "username"
+#   500px = "username"
+#   codepen = "username"
+#   mastodon = "url"
+#   kaggle = "username"
+#   weibo = "username"
+#   slack = "kgolding"
+
+# [params]
+#     photo = "/img/KevinCaricature2Oval150x180.png"
+#     linkedin = "https://www.linkedin.com/in/kevingolding"
+#     twitter = "https://twitter.com/kgoldinguk"
+#     stackOverflow = "http://stackexchange.com/users/3388933/kgolding"
+#     facebook = "https://www.facebook.com/kevin.golding.uk"
+
+#     googleAnalytics = "UA-83317619-1"
+
+#     hideReadingTime = true
+#     theme = "theme-base-0d"
+#     customCSS = "/css/kgolding.css"
+#     home = "Home"

@@ -1,5 +1,5 @@
 +++
-categories = []
+categories = [""]
 date = "2002-01-01"
 description = "Webmin module for creating ISO's from CD's"
 keywords = ["Webmin"]
@@ -20,9 +20,9 @@ a networkable copy.
 
 ### Screenshots
 
-<img src="/img/cd2iso/screenshot1.gif" class="img-responsive">
+![](/img/cd2iso/screenshot1.gif)
 
-<img src="/img/cd2iso/screenshot2.gif" class="img-responsive">
+![](/img/cd2iso/screenshot2.gif)
 
 ### License
 

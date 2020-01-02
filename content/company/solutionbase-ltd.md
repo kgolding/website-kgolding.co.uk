@@ -6,7 +6,9 @@ keywords = ["Solutionbase Ltd", "Motorola", "Hytera", "MOTOTRBO", "Kenwood", "Ta
 title = "Solutionbase Ltd"
 +++
 
-[<img src="/img/Solutionbase_logo_250x79.png" align="right" class="img-responsive">](http://solutionbase.co.uk)[Solutionbase Ltd](http://solutionbase.co.uk) is my company that provides:
+![](/img/Solutionbase_logo_250x79.png)
+
+[Solutionbase Ltd](http://solutionbase.co.uk) was my company that provided:
 
 * Software and hardware design
 * Two-radio integration
@@ -16,6 +18,4 @@ title = "Solutionbase Ltd"
 Recognised as an application partner with Motorola (MOTOTRBO), Hytera (DMR Tier II & Tier II), Kenwood, Tait
 & Simoco, we can design custom solutions as projects, or provide solutions under license.
 
-For Solutionbase Ltd support please email <support@solutionbase.co.uk>
-
-
+**UPDATE**: Solutionbase Ltd was to South Midlands Ltd in September 2019

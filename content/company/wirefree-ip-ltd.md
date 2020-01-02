@@ -6,8 +6,9 @@ keywords = ["Wirefree IP Ltd", "CCTV", "Access control", "Point-to-point"]
 title = "Wirefree IP Ltd"
 +++
 
-<img src="/img/wirefree_logo.gif" align="right" class="img-responsive">I co-founded
-[Wirefree IP Ltd](http://wirefreeip.com) which is a trade only provider of IP wireless links mainly
+![](/img/wirefree_logo.gif)
+
+I co-founded [Wirefree IP Ltd](http://wirefreeip.com) which is a trade only provider of IP wireless links mainly
 within the electronic security industry.
 The company provides turn-key solutions at fixed prices for security installers.
 
