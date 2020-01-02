@@ -39,9 +39,6 @@ enableGitInfo = true
 [taxonomies]
     category = "categories"
 
-[blackfriday]
-    hrefTargetBlank = true
-
 [author]
     name = "Kevin Golding"
     email = "kevin@kgolding.co.uk"
@@ -113,6 +110,24 @@ enableGitInfo = true
 #   slack = "kgolding"
 
 [markup]
+  defaultMarkdownHandler = "blackFriday"
+
+  [markup.blackFriday]
+    angledQuotes = false
+    footnoteAnchorPrefix = ""
+    footnoteReturnLinkContents = ""
+    fractions = true
+    hrefTargetBlank = true
+    latexDashes = true
+    nofollowLinks = false
+    noreferrerLinks = false
+    plainIDAnchors = true
+    skipHTML = false
+    smartDashes = true
+    smartypants = true
+    smartypantsQuotesNBSP = false
+    taskLists = true
+
   [markup.highlight]
     codeFences = true
     guessSyntax = false
@@ -123,3 +138,4 @@ enableGitInfo = true
     noClasses = true
     style = "apac"
     tabWidth = 4
+
