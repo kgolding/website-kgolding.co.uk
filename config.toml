@@ -11,7 +11,7 @@ metaDataFormat = "yaml"
 # pygmentsCodefencesGuessSyntax = true
 #pygmentsUseClassic = true
 #pygmentOptions = "linenos=inline"
-#disqusShortname = "XXX"
+disqusShortname = "kgolding233"
 googleAnalytics = "UA-83317619-1"
 
 enableGitInfo = true
