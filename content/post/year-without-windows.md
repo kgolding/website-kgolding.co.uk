@@ -1,7 +1,7 @@
 ---
 title: "The year of Linux on the desktop"
 date: 2020-01-03T22:50:32Z
-description: "A year without windows - aka the year of the Linus desktop"
+description: "A year without windows - aka the year of the Linux desktop"
 tags: ["windows", "linux", "os"]
 ---
 
