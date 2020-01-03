@@ -25,21 +25,6 @@ enableGitInfo = true
     weight = 500
 
 [[menu.main]]
-    name = "Projects"
-    url = "/project/"
-    weight = 800
-
-[[menu.main]]
-    name = "Applications"
-    url = "/application/"
-    weight = 920
-
-[[menu.main]]
-    name = "Companies"
-    url = "/company/"
-    weight = 900
-
-[[menu.main]]
     name = "Categories"
     url = "/categories/"
     weight = 800

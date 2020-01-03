@@ -71,7 +71,7 @@ function populateResults(result){
     var output = render(templateDefinition,{key:key,title:value.item.title,link:value.item.permalink,tags:value.item.tags,categories:value.item.categories,snippet:snippet});
     $('#search-results').append(output);
 
-    $.each(snippetHighlights,function(snipkey,snipvalue){
+    $.each(snippetHighlights,function(key,snipvalue){
       $("#summary-"+key).mark(snipvalue);
     });
 
