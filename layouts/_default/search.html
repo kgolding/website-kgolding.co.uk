@@ -17,10 +17,21 @@
     <div id="summary-${key}">
       <h4><a href="${link}">${title}</a></h4>
       <p>${snippet}</p>
-      ${ isset tags }<p>Tags: ${tags}</p>${ end }
+      <div class="blog-tags">
+        ${ isset tags }${tags}${ end }
+      </div>
       ${ isset categories }<p>Categories: ${categories}</p>${ end }
     </div>
 </script>
+
+<script id="search-result-template-tags" type="text/x-js-template">
+    <a href="/tags/${}">${}</a>&nbsp;
+</script>
+
+<script id="search-result-template-categories" type="text/x-js-template">
+    <a href="/categories/${}">${}</a>&nbsp;
+</script>
+
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.0/fuse.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js"></script>
