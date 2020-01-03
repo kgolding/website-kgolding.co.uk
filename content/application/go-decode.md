@@ -7,6 +7,7 @@ title = "Decoding binary data packets in Go"
 +++
 
 Decoder takes a byte array and provides safe & simple functions to read different types, and keeps track of the last read position.
+<!--more-->
 
 **What about go's built in binary package?** Go's built in binary package allows decoding and encoding fixed lenghts packets from/to structs, but it does not handle variable lenght data as is often seen in over the wire protocols.
 

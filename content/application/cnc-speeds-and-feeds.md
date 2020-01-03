@@ -7,6 +7,7 @@ title = "CNC Speeds and feed calculator"
 +++
 
 Simple CNC Speeds and feed calculator written in Vue JS, mobile and print friendly with local storage of recent calculations in table format.
+<!--more-->
 
 * [Live demo](/apps/cnc-speeds-and-feeds/)
 * [Source code on Github](https://github.com/kgolding/vue-cnc-feeds-and-speeds)

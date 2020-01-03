@@ -8,6 +8,7 @@ title = "Hytera partner interview"
 
 Below is a copy of the Hytera partner interview I was featured in. The original page is at
 http://hytera.co.uk/hytera-application-partner-interview/
+<!--more-->
 
 ---
 

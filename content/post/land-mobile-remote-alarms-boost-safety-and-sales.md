@@ -8,6 +8,7 @@ categories: ["SMC Gateway", "Press", "Integration"]
 
 Land Mobile has run an article explaining the benefits of remote alarm monitoring using two-way radios featuring
 the SMC Gateway and a few quotes from me!
+<!--more-->
 
 > Kevin Golding, applications manager at South Midlands Communications (SMC), observes that the majority of jobs involve fire alarms because they are about life safety. The more sophisticated alerts send notifications not just that an alarm has been triggered, but the exact location and, where appropriate, what piece of equipment it relates to.
 >

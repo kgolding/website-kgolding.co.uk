@@ -6,8 +6,8 @@ keywords = ["Webmin"]
 title = "Webmin module for creating ISO images from CD's"
 +++
 
-This [Webmin](http://webmin.com/) module allows you to copy a data CD to a standard iso image format that can then be
-burnt to a cd using standard CD writing software (cdrecord, Nero etc).
+This [Webmin](http://webmin.com/) module allows you to copy a data CD to a standard iso image format that can then be burnt to a cd using standard CD writing software (cdrecord, Nero etc).
+<!--more-->
 
 cd2iso can also save a text file with any users comments about the cd along side the iso image for future reference
 (useful for cd keys etc).

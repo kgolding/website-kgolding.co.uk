@@ -9,6 +9,7 @@ title = "Text to speech for two-way radios"
 Whilst two-way radios are used in retail environments, many of the radios are entry level and rarely feature text
 messaging nor the displays to show messages. Also, staff do not want to be seen forever checking their radios for
 messages.
+<!--more-->
 
 After being asked to provide a text-to-speech for a radio dealer I researched the available options and sadly all
 of the offline solutions were either very expensive or very poor quality.

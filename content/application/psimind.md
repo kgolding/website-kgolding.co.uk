@@ -7,6 +7,7 @@ title = "psiMind - Mind Mapping for the Psion range of organisers"
 +++
 
 Now at version 1.12gpl (05/12/02) - a Semi-Graphical Mind Mapping program for the Psion 5/5mx/7/netBook that's released under GPL!
+<!--more-->
 
 ### Downloads
 

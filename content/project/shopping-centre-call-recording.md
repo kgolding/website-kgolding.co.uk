@@ -9,6 +9,7 @@ title = "Shopping centre call recording"
 
 There's a busy shopping centre in the heart of Manchester, and for the safety and security of their staff and the
 general public they required that all the audio conversations over the two-way radio system were recorded.
+<!--more-->
 
 Making use of my SMC Gateway product, the radio dealer was able to provide a quick to deploy and simple to use system
 at an entry level cost.

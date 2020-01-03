@@ -9,6 +9,7 @@ draft = false
 
 Just back from a great week camping at [Butchers Coppice](http://butcherscoppice.org.uk/) with the
 [1st Nork Cubs](http://www.1stnorkscoutgroup.org/cubs.htm)! We had 28 Cubs and 7 Scouts/young leaders.
+<!--more-->
 
 We had a busy week, with activities such as axe throwing, bouldering, a visit to the
 [Bovington Tank Museum](http://www.tankmuseum.org/home) and a great day put to 

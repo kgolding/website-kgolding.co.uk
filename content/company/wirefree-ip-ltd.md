@@ -11,6 +11,7 @@ title = "Wirefree IP Ltd"
 I co-founded [Wirefree IP Ltd](http://wirefreeip.com) which is a trade only provider of IP wireless links mainly
 within the electronic security industry.
 The company provides turn-key solutions at fixed prices for security installers.
+<!--more-->
 
 Our links are custom made, using a combination of third party antennas and wireless transceiver's. Each link is
 installed, commissioned, tested and presented to the security installer as a 'virtual ethernet cable' taking away

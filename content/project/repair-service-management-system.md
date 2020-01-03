@@ -9,6 +9,7 @@ title = "Repair/service management system"
 
 POS Ltd was the only third party service provider for the [PSION](https://en.wikipedia.org/wiki/Psion_(company))
 range of PDA's (active in the late nineties and noughties).
+<!--more-->
 The company provided a repair service to end users and to the trade alike.
 
 As the company expanded in line with the massive success of PSION, the various spreadsheets that were used to track

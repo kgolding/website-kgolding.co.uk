@@ -9,6 +9,7 @@ title = "Serial port popup notification for Windows"
 I have to use serial ports a lot in my day to day work, and given the modern day PC's total lack of these ports I use
 USB to Serial adaptors. These work really well but depending on which adaptor gets plugged into which port, the assigned
 virtual serial is always a mystery and I result in opening up the Windows device manager to see what has been assigned.
+<!--more-->
 
 So, my solution was to write a system tray application that looks out for a new serial port to appear and then flash a
 notification with the assigned name such as "COM1".

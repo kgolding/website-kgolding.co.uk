@@ -9,6 +9,7 @@ title = "National Portrait Gallery (NPG)"
 
 Working with two-way radio dealer [Wall to Wall Communications Ltd](http://walltowallcomms.co.uk/) and using my
 [SMC Gateway](http://smc-gateway.com) product, we provided three key integrations to aid in the safety of staff and vistors.
+<!--more-->
 
 All three integrations were engineered using one standard off the shelf [SMC Gateway](http://smc-gateway.com), making
 the material cost low, and by using the built-in graphical application builder no software development was required. 
