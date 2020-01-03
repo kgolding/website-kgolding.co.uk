@@ -72,7 +72,10 @@ function populateResults(result){
     $('#search-results').append(output);
 
     $.each(snippetHighlights,function(key,snipvalue){
-      $("#summary-"+key).mark(snipvalue);
+      let snippet = $("#summary-"+key)
+      if (snippet && snippet.mark) {
+        snippet.mark(snipvalue);
+      }
     });
 
   });
