@@ -37,10 +37,6 @@ enableGitInfo = true
 [taxonomies]
     tag = "tags"
 
-[author]
-    name = "Kevin Golding"
-    email = "kevin@kgolding.co.uk"
-
 [permalinks]
     post = "/blog/:year/:month/:day/:title/"
 
@@ -62,6 +58,7 @@ enableGitInfo = true
   delayDisqus = true
   showRelatedPosts = true
   hideAuthor = true
+  selfHosted = true
 
 #  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
 
@@ -79,7 +76,7 @@ enableGitInfo = true
 
 [Author]
   name = "Kevin Golding"
-  website = "kgolding.co.uk"
+  website = "https://kgolding.co.uk"
   email = "kevin@kgolding.co.uk"
   facebook = "kevin.golding.uk"
   github = "kgolding"
