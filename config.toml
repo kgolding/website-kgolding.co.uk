@@ -16,6 +16,9 @@ googleAnalytics = "UA-83317619-1"
 
 enableGitInfo = true
 
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  
 [[menu.main]]
     name = "Home"
     url = "/"
@@ -35,6 +38,16 @@ enableGitInfo = true
     name = "Companies"
     url = "/company/"
     weight = 900
+
+[[menu.main]]
+    name = "Categories"
+    url = "/categories/"
+    weight = 800
+
+[[menu.main]]
+    name = "Search"
+    url = "/search/"
+    weight = 950
 
 [taxonomies]
     category = "categories"
@@ -138,4 +151,3 @@ enableGitInfo = true
     noClasses = true
     style = "apac"
     tabWidth = 4
-
