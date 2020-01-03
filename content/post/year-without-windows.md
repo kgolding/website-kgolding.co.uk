@@ -6,6 +6,7 @@ tags: ["windows", "linux", "os"]
 ---
 
 It's here at last! For the last 12 months, that is all of 2019, I have used Linux on the desktop as my primary desktop operating system!
+<!--more-->
 
 I have used Windows, but only very rarely to run a very small number of WIndows only applications such as niche two-way radio programming applications and annoyingly my Brother QL label printer.
 
