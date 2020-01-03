@@ -1,5 +1,5 @@
 +++
-categories = ["SMC Gateway", "Hytera", "Integration", "golang"]
+tags = ["smc gateway", "hytera", "mitel"]
 date = "2015-10-01T09:00:00+01:00"
 description = "National Portrait Gallery uses SMC Gateway for two-way radio integration"
 keywords = ["SMC Gateway", "Hytera", "Mitel"]
@@ -26,5 +26,6 @@ conditions including temperature, movement, vibration and more. Using XML over T
 which are sent to different security personal depending on the location of the alarm. This lets staff quickly respond.
 
 ### Telephony integration of Mitel PABX to Hytera two way radios
+
 In the event of an issue requiring the attendance of third partys such as the emergency services, the Gateway provides
 the means for a two-radio user to make (and receive) a telephone call via the galleries Mitel telephone system.

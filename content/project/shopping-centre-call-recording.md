@@ -1,5 +1,5 @@
 +++
-categories = ["SMC Gateway", "MOTOTRBO", "Motorola", "golang"]
+tags = ["smc gateway", "mototrbo", "motorola", "go"]
 date = "2016-04-09"
 description = "Audio call record for a busy Manchester shopping centre"
 keywords = []

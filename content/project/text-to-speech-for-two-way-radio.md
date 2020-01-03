@@ -1,5 +1,5 @@
 +++
-categories = ["SMC Gateway", "Motorola", "golang"]
+tags = ["smc gateway", "motorola", "go"]
 date = "2016-08-07T18:06:49+01:00"
 description = "Speaking text message for retail two-way radios"
 keywords = ["text-to-speech", "Motorola", "two-way radio"]
