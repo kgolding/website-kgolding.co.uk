@@ -1,5 +1,5 @@
 +++
-categories = [""]
+categories = ["Webmin"]
 date = "2002-01-01"
 description = "Webmin module for creating ISO's from CD's"
 keywords = ["Webmin"]
