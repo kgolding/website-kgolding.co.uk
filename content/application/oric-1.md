@@ -1,5 +1,5 @@
 +++
-categories = ["Oric 1"]
+tags = ["oric", "basic"]
 date = "1983-12-01"
 description = "Oric 1, Bar graph drawing program from 1983"
 keywords = ["Webmin"]

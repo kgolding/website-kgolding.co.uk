@@ -1,5 +1,5 @@
 +++
-categories = ["WFIP", "CCTV", "Wireless"]
+tags = ["wfip", "cctv", "wireless"]
 date = "2009-04-09T09:00:00+01:00"
 description = "Wirefree IP Ltd provides IP links to the security and two-way industries."
 keywords = ["Wirefree IP Ltd", "CCTV", "Access control", "Point-to-point"]

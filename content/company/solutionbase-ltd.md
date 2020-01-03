@@ -1,5 +1,5 @@
 +++
-categories = ["SMC Gateway", "Hytera", "MOTOTRBO", "Kenwood", "Tait", "Icom", "Simoco"]
+tags = ["smc gateway", "hytera", "mototrbo", "kenwood", "tait", "icom", "simoco"]
 date = "2014-01-22T12:09:00+01:00"
 description = "Solutionbase Ltd provides software and hardware development services"
 keywords = ["Solutionbase Ltd", "Motorola", "Hytera", "MOTOTRBO", "Kenwood", "Tait", "Icom", "Simoco", "Software development"]

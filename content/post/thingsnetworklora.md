@@ -2,7 +2,7 @@
 title: "LoRaWAN: The Things Network"
 date: 2017-11-06T20:54:32Z
 description: "LoRa & The Things Network"
-categories: ["LoRa", "Things Network"]
+tags: ["lora", "the things network"]
 ---
 
 LoRa is a modern Internet of Things (IoT) focused protocol for sending small amounts of data

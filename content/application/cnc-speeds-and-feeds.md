@@ -1,5 +1,5 @@
 +++
-categories = []
+tags = ["cnc", "vuejs"]
 date = "2019-12-31"
 description = "CNC Speeds and feed calculator"
 keywords = ["CNC"]

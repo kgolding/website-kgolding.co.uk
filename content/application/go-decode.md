@@ -1,5 +1,5 @@
 +++
-categories = []
+tags = ["go", "protocol"]
 date = "2019-12-02"
 description = "Decoder takes a byte array and provides safe & simple functions to read different types, and keeps track of the last read position."
 keywords = ["GO", "Protocols"]

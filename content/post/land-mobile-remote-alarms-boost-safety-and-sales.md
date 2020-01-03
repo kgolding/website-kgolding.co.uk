@@ -1,9 +1,9 @@
 ---
+tags:  ["hytera", "smc gateway", "press"]
 title: "Land Mobile: Remote alarms boost safety and sales"
 date: 2017-09-22T20:54:00Z
 description: "Land Mobile has run an article explaining the benefits of remote alarm monitoring using two-way radios featuring
 the SMC Gateway and a few quotes from me!"
-categories: ["SMC Gateway", "Press", "Integration"]
 ---
 
 Land Mobile has run an article explaining the benefits of remote alarm monitoring using two-way radios featuring

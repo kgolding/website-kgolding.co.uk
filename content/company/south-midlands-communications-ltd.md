@@ -1,5 +1,5 @@
 +++
-categories = ["SMC Gateway", "Hytera", "MOTOTRBO", "Tait", "Simoco"]
+tags = ["smc gateway", "hytera", "mototrbo", "kenwood", "tait", "icom", "simoco"]
 date = "2014-01-01"
 description = "South Midlands Communications Ltd"
 keywords = []

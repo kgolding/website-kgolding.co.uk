@@ -1,5 +1,5 @@
 +++
-categories = []
+tags = ["serial port", "b4j", "windows", "usb"]
 date = "2018-02-12"
 description = "I have to use serial ports a lot in my day to day work, and given the modern day PC's total lack of these ports I use USB to Serial adaptors."
 keywords = ["Windows", "B4J"]

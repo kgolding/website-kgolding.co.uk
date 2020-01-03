@@ -1,5 +1,5 @@
 +++
-categories = ["Hytera", "SMC Gateway", "Press"]
+tags = ["hytera", "smc gateway", "press"]
 date = "2016-08-17"
 description = "Hytera partner interview with Kevin Golding about the SMC Gateway"
 keywords = []
