@@ -9,7 +9,8 @@ deploy: build
 	cd public && rsync -a --delete --stats . kgolding.co.uk@ssh.stackcp.com:~/public_html
 
 git-status:
-	@if [ -z "$(git status --porcelain)" ]; \
+	@status=$$(git status --porcelain); \
+	if [ ! -z "$${status}" ]; \
 	then \
 		echo "Error - working directory is dirty. Commit those changes!"; \
 		exit 1; \
