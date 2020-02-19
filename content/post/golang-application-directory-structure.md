@@ -1,7 +1,7 @@
 ---
 title: "Golang Application Directory Structure"
 date: 2020-02-19T21:12:56Z
-tags: ["go"]
+tags: ["go", "git"]
 ---
 
 How to set up a golang project as a mono repo, with public and private packages.
@@ -57,4 +57,19 @@ In the following commands replace `my-project` for your projects name, and `kgol
 | ./pkg/*       | Folders for each public package (that might be used in other projects) |
 | ./vendor/*    | *Optional:* External dependencies as populated by `go mod vendor` |
 
+### Importing local packages
 
+Despite the packages being in the same repo, you import them using their full paths:
+
+```go
+package main
+
+import (
+	"fmt"
+
+	"github.com/kgolding/go-app-structure/internal/prv"
+	"github.com/kgolding/go-app-structure/pkg/one"
+)
+```
+
+The `internal` packages can only be imported by files in this application, whereas `pkg` ones can be import from third party applications.
