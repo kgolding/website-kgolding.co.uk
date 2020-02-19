@@ -10,7 +10,9 @@ Change the `http://192.168.100.82:8000` to that of your API server.
 
 The "publicPath: ..." allows the deployed application to use a relative path, meaning it can be installed in a directory or the root of the http server.
 
-**vue.config.jf**
+To proxy websockets as well, change `ws: false` to `ws: true`.
+
+**vue.config.js**
 ```js
 module.exports = {
   publicPath: process.env.NODE_ENV === 'production' ? './' : '/',
