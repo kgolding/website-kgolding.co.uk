@@ -69,7 +69,7 @@ After following the instructions below, your `myapp` application will be accessi
 
 1. `mkdir ~/my-app`
 1. `cd ~/my-app`
-1. Copy the application to server, `myapp` in this example, and have it run it's http server on port 8080
+1. Copy the application to the server into the `~/my-app` directory, which is `myapp`in this example, and configurr it to run it's http server on port 8080.
 1. `nano docker-compose.yml`:
 ```yaml
     version: '3'
@@ -98,7 +98,23 @@ After following the instructions below, your `myapp` application will be accessi
 ```
 1. `docker-compose up -d` and `docker-compose down` to stop
 
+**Notes**
 
+* The VIRTUAL_HOST and VIRTUAL_PORT environment vars configure the ngnix web proxy, the the port must match the exposed port
+* The LETSENCRYPT_HOST and LETSENCRYPT_EMAIL environment vars configure the atomated letsencrypt HTTPS certificate generation
+
+## Directory structure
+
+Whilst not enforced, here's the directory structure after following the above instructions.
+
+```
+~
+├── proxy
+│   └── docker-compose.yaml
+└── my-app
+    ├── myapp
+    └── docker-compose.yaml
+```
 
 ## References
 
