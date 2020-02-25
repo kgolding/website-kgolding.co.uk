@@ -1,6 +1,7 @@
 ---
 title: "Docker Server & Web Proxy"
 date: 2020-02-19T21:33:55Z
+tags: ["docker", "go"]
 ---
 
 Setup a docker server with nginx proxy, with automated letsencrypt certs! Simple 4 step process for adding new apps - great for running golang apps!
