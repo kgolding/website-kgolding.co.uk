@@ -117,6 +117,26 @@ Whilst not enforced, here's the directory structure after following the above in
     └── docker-compose.yaml
 ```
 
+## Adding custom nginx configuration
+
+You can load a custom nginx conf by mounting a local file inside the image like so:
+
+```
+    volumes:
+    ... existing volumes ...
+      - ./nginx_d.conf:/etc/nginx/conf.d/nginx_d.conf:ro
+    networks:
+```
+
+And having the custom conf file in the same directoy as the docker-compose.yaml or use an absolute path.
+
+e.g. this file increases the maximum upload size to 10MB
+
+`nginx_d.conf`
+```
+client_max_body_size 10m;
+```
+
 ## References
 
 * https://olex.biz/2019/09/hosting-with-docker-nginx-reverse-proxy-letsencrypt/
