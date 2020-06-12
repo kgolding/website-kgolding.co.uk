@@ -1,10 +1,10 @@
 +++
-title = "Buldroot - tips and tips"
+title = "Buldroot - tips and tricks"
 description = "Some buildroot tips"
 date = "2020-06-12"
 tags = ["buildroot"]
 +++
-Here are some great buildroot tips and tips:
+Here are some great [buildroot](https://buildroot.org/) tips and tips:
 <!--more-->
 
 ## Menuconfig search
@@ -15,11 +15,7 @@ When using `make menuconfig` you can search for an option using `/`, but did you
 
 ## Make with a pretty output
 
-`./utils/brmake` simplifies the output to human readable format
-
-e.g. to display all the vars starting with `GO_` (add the underscore at the end to only display GO package vars and not GODB2 as well for example.
-
-`make VARS=GO_% printvars`
+`./utils/brmake` runs `make` and simplifies the output to a more human readable format.
 
 ## Rebuild one package and regenerate filesystem images
 
@@ -29,7 +25,15 @@ e.g. to rebuild the htop package and rebuild the file-system images.
 
 `make htop-rebuild all`
 
-Where `all` rebuilds the file-system images.
+Where `htop-rebuild` rebuilds the htop package and  `all` rebuilds the file-system images.
+
+## Print out variables
+
+Use `make VARS=<pattern> printvars` to print out buildroot vars, using `%` in the pattern as a wildcard.
+
+e.g. to display all the vars starting with `GO_` (add the underscore at the end to only display GO package vars and not GODB2 as well for example
+
+`make VARS=GO_% printvars`
 
 ## Help
 
