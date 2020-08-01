@@ -18,4 +18,4 @@ title = "Solutionbase Ltd"
 Recognised as an application partner with Motorola (MOTOTRBO), Hytera (DMR Tier II & Tier II), Kenwood, Tait
 & Simoco, we can design custom solutions as projects, or provide solutions under license.
 
-**UPDATE**: Solutionbase Ltd was to South Midlands Ltd in September 2019
+**UPDATE**: Solutionbase Ltd was sold to South Midlands Ltd in September 2019
