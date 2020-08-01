@@ -39,7 +39,8 @@ This code snippet shows the approach taken:
 * `OUTPUT.DOCX` is the resulting file
 
 > Importantly, the reference DOCX file must contain sample content which uses any of the styles needed e.g. Heading 1, Heading 2 etc. This content is deleted during the conversion, but if it is not there then all the style information is removed from the reference document when it is saved.
-
+>
+> Use `pandoc --print-default-data-file reference.docx > ref.docx` to generate a reference file which you can then style
 
 ### Handling pagebreaks
 
