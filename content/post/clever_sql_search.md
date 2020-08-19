@@ -1,6 +1,6 @@
 ---
 title: "Clever SQL search - aka poor mans full text search"
-date: 2020-08-01T21:31:32Z
+date: 2020-08-19T22:16:32Z
 description: ""
 tags: ["sql"]
 ---
