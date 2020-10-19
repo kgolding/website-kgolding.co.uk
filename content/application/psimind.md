@@ -67,3 +67,10 @@ There's an export to text feature with various styles to choose from...
 
 ![](/img/psiMind/psimind4.GIF)
 
+### In the media
+
+#### Palmtop Magazine circa 2003
+![](/img/psiMind/psimind-palmtop-magazine-2003.png)
+
+#### What Laptop March 2002
+![](/img/psiMind/psiMind-What_Laptop_March_2002.png)
