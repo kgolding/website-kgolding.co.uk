@@ -22,19 +22,19 @@ console.log("Original has changed", a)
 ```
 
 **Output**
-|||
-|---|---|
-|Original|["orange", "apple", "pear", "bannana"]|
-|Cloned and sorted|["apple", "bannana", "orange", "pear"]|
-|Original untouched|["orange", "apple", "pear", "bannana"]|
-|Sorted|["apple", "bannana", "orange", "pear"]|
-|Original has changed|["apple", "bannana", "orange", "pear"]|
+```
+Original              ["orange", "apple", "pear", "bannana"]
+Cloned and sorted     ["apple", "bannana", "orange", "pear"]
+Original untouched    ["orange", "apple", "pear", "bannana"]
+Sorted                ["apple", "bannana", "orange", "pear"]
+Original has changed  ["apple", "bannana", "orange", "pear"]
+```
 
 *JSFiddle https://jsfiddle.net/1a2hx847/*
 
 ## Gotcha #2 - sort() callback needs to return one of three different results
 
-When sorting an array of objects you use a custom function as a callback, and many resources on the Internet show this as a simple test such as `a.age &lt; b.age` but this isn't enough and can produced unordered results.
+When sorting an array of objects you use a custom function as a callback, and many resources on the Internet show this as a simple test such as `a.age < b.age` but this isn't enough and can produced unordered results.
 
 ```js
 let x = [
@@ -54,10 +54,10 @@ console.log("Sorted", x.concat().sort(compare))
 ```
 
 **Output**
-|||
-|---|---|
-|Original|```[{age: 52}, {age: 38}, {age: 39}]```|
-|Bad sort|```[{age: 52}, {age: 38}, {age: 39}]```|
-|Sorted|```[{age: 38}, {age: 39}, {age: 52}]```|
+```
+Original  [{age: 52}, {age: 38}, {age: 39}]
+Bad sort  [{age: 52}, {age: 38}, {age: 39}]
+Sorted    [{age: 38}, {age: 39}, {age: 52}]
+```
 
 *JSFiddle* https://jsfiddle.net/1a2hx847/1/
