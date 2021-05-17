@@ -14,6 +14,9 @@ metaDataFormat = "yaml"
 # disqusShortname = "kgolding233"
 googleAnalytics = "UA-83317619-1"
 
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
 enableGitInfo = true
 
 [outputs]
