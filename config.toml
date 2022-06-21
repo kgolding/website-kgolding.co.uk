@@ -108,23 +108,23 @@ enableGitInfo = true
 #   slack = "kgolding"
 
 [markup]
-  defaultMarkdownHandler = "blackFriday"
+#  defaultMarkdownHandler = "blackFriday"
 
-  [markup.blackFriday]
-    angledQuotes = false
-    footnoteAnchorPrefix = ""
-    footnoteReturnLinkContents = ""
-    fractions = true
-    hrefTargetBlank = true
-    latexDashes = true
-    nofollowLinks = false
-    noreferrerLinks = false
-    plainIDAnchors = true
-    skipHTML = false
-    smartDashes = true
-    smartypants = true
-    smartypantsQuotesNBSP = false
-    taskLists = true
+#  [markup.blackFriday]
+#    angledQuotes = false
+#    footnoteAnchorPrefix = ""
+#    footnoteReturnLinkContents = ""
+#    fractions = true
+#    hrefTargetBlank = true
+#    latexDashes = true
+#    nofollowLinks = false
+#    noreferrerLinks = false
+#    plainIDAnchors = true
+#    skipHTML = false
+#    smartDashes = true
+#    smartypants = true
+#    smartypantsQuotesNBSP = false
+#    taskLists = true
 
   [markup.highlight]
     codeFences = true
