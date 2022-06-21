@@ -24,6 +24,7 @@ These instructions are for Linux, and you will need to have docker installed.
     * Accept the defaults
 1. Run the new created project using  from inside the a container
     > `docker run -it --rm -u $UID -p 8080:8080 -v "$PWD":/app --workdir /app $(docker build -q .) yarn serve`
+1. Open [http://localhost:8080/](http://localhost:8080/)
 
 ## Explanation
 
