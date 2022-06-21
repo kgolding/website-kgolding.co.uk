@@ -6,7 +6,7 @@ build: git-status
 	hugo
 
 deploy: build
-	cd public && rsync -a --delete --stats . kgolding.co.uk@ssh.stackcp.com:~/public_html
+	cd public && rsync -a --delete --stats . kgolding.co.uk@ssh.gb.stackcp.com:~/public_html
 
 git-status:
 	@status=$$(git status --porcelain); \
