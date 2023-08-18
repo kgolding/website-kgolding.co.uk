@@ -1,7 +1,7 @@
 +++
 title = "Svelte Cheatsheet"
 description = "Svelte cheat sheet and examples"
-tags = ["Svelte"]
+tags = ["Svelte", "js"]
 date = "2023-02-18"
 +++
 
