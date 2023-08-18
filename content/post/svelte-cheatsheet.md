@@ -201,3 +201,5 @@ count.set(0)
 <span>{$count}</span>
 ```
 Any name beginning with $ is assumed to refer to a store value. It's effectively a reserved character — Svelte will prevent you from declaring your own variables with a $ prefix.
+
+p.s. It's `Svelte` not `Svetle` for us dyslexic
