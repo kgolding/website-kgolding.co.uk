@@ -15,3 +15,6 @@ git-status:
 		echo "Error - working directory is dirty. Commit those changes!"; \
 		exit 1; \
 	fi
+
+install-hugo:
+	CGO_ENABLED=1 go install -tags extended github.com/gohugoio/hugo@latest
