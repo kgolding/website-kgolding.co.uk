@@ -7,6 +7,8 @@ date = "2023-02-18"
 
 Here's are some Svelte basics and language examples.
 
+Also see [how to proxy to API in dev mode]({{< relref svelte-dev-proxy >}})
+
 <!--more-->
 
 ## Creating an app
@@ -121,11 +123,22 @@ let color = "red
 
 ## Events
 
+handleClick will be passed the event:
 ```
 function handleClick(event) {}
 ...
 <div on:click={handleClick} />
 ```
+
+Or to pass your own vars:
+
+```
+function handleClick(myId) {}
+...
+<div on:click={() => handleClick(id)} />
+```
+
+
 
 ### Modifiers
 
