@@ -10,7 +10,19 @@ In order to use the ESPHome add-on in Home Assistant you have to access the web 
 
 ### Stage 1 - Create ssl certificates
 
-1. You will need access to a computer that has openssl installed.
+#### Option 1 - Online service
+
+1. Goto https://gencert.srv.lxsig.uk/
+1. Enter your Home Assistants IP address & host name
+1. Click Generate certificates
+1. Click Download for both `Private key` and `Certificate`
+1. This will have generated two files:
+    * `fullchain.pem`
+    * `privkey.pem`
+
+#### Option 2 - Use openssl on local PC
+
+1. You will need access to a computer that has openssl installed
 1. Run the following command (on your local PC) to generate the new self signed certs, making sure to change the IP address to the your Home Assistant IP address:<br>
 ```
 openssl req -sha256 -addext "subjectAltName = IP:192.168.5.53, DNS:homeassistant.local" -newkey rsa:4096 -nodes -keyout privkey.pem -x509 -days 24855 -out fullchain.pem
