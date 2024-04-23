@@ -5,12 +5,14 @@ description: ""
 tags: ["home-assistant", "esphome"]
 ---
 
-In order to use the ESPHome add-on in Home Assistant you have to access the web portal using https.
+In order to use voice input, or the ESPHome add-on in Home Assistant you have to access the web portal using https.
 <!--more-->
+
+Whilst the excellent https://www.nabucasa.com/ service provides public https access to your local home assistant server, you have to a; have an Internet connection and b; enable remote access. The guide below shows you how to use https locally with no Internet or public facing access needed.
 
 ### Stage 1 - Create ssl certificates
 
-#### Option 1 - Online service
+#### Option A - Online service (easy)
 
 1. Goto https://gencert.srv.lxsig.uk/
 1. Enter your Home Assistants IP address & host name
@@ -19,8 +21,9 @@ In order to use the ESPHome add-on in Home Assistant you have to access the web 
 1. This will have generated two files:
     * `fullchain.pem`
     * `privkey.pem`
+1. Goto Stage 2
 
-#### Option 2 - Use openssl on local PC
+#### Option B - Use openssl on local PC (advanced)
 
 1. You will need access to a computer that has openssl installed
 1. Run the following command (on your local PC) to generate the new self signed certs, making sure to change the IP address to the your Home Assistant IP address:<br>
@@ -72,7 +75,7 @@ http:
 
 ### Stage 4 - Access Home Assistant over https
 
-1. Edit the address bar and change the `http` prefix to `https` e.g. https://homeassistant.local:8123/
+1. Edit your web broswers address bar and change the `http` prefix to `https` e.g. https://homeassistant.local:8123/
 1. You will see a page with a warning `Your connection is not private`
 1. Click the `Advanced` button
 1. Click the `Proceed to ......` link 
