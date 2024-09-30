@@ -1,5 +1,5 @@
 +++
-title = "OpenSCAD - RedSprite talk Oct 12024"
+title = "OpenSCAD - RedSprite talk Oct 2024"
 description = "Notes and code from the RedSprite Oct 2024 talk on 3D modeling"
 tags = ["OpenSCAD", "3D"]
 date = "2024-09-30"
