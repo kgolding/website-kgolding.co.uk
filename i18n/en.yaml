@@ -1,2 +1,0 @@
-- id: lastModified
-  translation: "Last modified on {{ .Count }}"
